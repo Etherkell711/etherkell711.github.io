@@ -1,0 +1,76 @@
+  * {
+  padding: 0;
+  margin: 0;
+  min-width: 400px;
+}
+
+body {
+  background-color: #fffbec;
+}
+
+#banner {
+  background-image: url("https://preview.redd.it/all-game-boy-ds-and-3ds-models-v0-45a1nrc55qzc1.jpg?width=1080&crop=smart&auto=webp&s=c749bddf503d1ac4575e0cde5a99e4348ad99db5");
+  background-size: cover;
+  height: 400px;
+  min-width: 400px;
+  max-width: 720px;
+  margin: auto;
+}
+
+#banner .title h2 {
+  text-align: center;
+  color: white;
+  border: 5px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+  margin: 0 40px;
+  background-color: gray;
+}
+
+ul {
+  margin: 20px 30px;
+}
+
+.introduction,
+.final-conclusion {
+  text-align: justify;
+  margin: 10px 20px;
+  font-weight: bold;
+}
+
+.factors h3,
+.conclusion,
+.final-thoughts {
+  text-align: center;
+}
+
+.conclusion {
+  border: 5px solid purple;
+  margin: 5px 50px;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: skyblue;
+  padding: 10px;
+}
+
+div.screen-size {
+  border: 7px solid skyblue;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.processor {
+  border: 7px solid crimson;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.design {
+  border: 7px solid green;
+  margin: 10px;
+  border-radius: 10px;
+}
