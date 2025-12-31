@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fffbec;
+  background-color: hsla(57, 70%, 95%, 0.9);
 }
 
 #banner {
@@ -14,7 +14,9 @@ body {
   height: 400px;
   min-width: 400px;
   max-width: 720px;
-  margin: auto;
+  margin: 10px auto;
+  border: 4px solid black;
+  border-radius: 10px;
 }
 
 #banner .title h2 {
@@ -40,21 +42,40 @@ ul {
   font-weight: bold;
 }
 
+.introduction {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 850px;
+}
+
 .factors h3,
 .conclusion,
 .final-thoughts {
   text-align: center;
 }
 
+.final-conclusion {
+  margin: 10px auto 050px ;
+  text-align: center;
+  max-width: 910px;
+}
+
 .conclusion {
   border: 5px solid purple;
-  margin: 5px 50px;
+  margin: 5px auto;
   border-radius: 3px;
+  width: 700px;
 }
 
 .footer {
   background-color: skyblue;
-  padding: 10px;
+  padding: 10px 0;
+}
+
+.footer ul {
+  text-align: center;
+  max-width: 750px;
+  margin: 10px auto;
 }
 
 div.screen-size {
@@ -73,4 +94,12 @@ div.design {
   border: 7px solid green;
   margin: 10px;
   border-radius: 10px;
+}
+
+div.screen-size,
+div.processor,
+div.design {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 800px;
 }
