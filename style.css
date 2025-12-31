@@ -7,6 +7,7 @@
 body {
   background-color: hsla(57, 70%, 95%, 0.9);
 }
+   /* Banner and Title */
 
 #banner {
   background-image: url("https://preview.redd.it/all-game-boy-ds-and-3ds-models-v0-45a1nrc55qzc1.jpg?width=1080&crop=smart&auto=webp&s=c749bddf503d1ac4575e0cde5a99e4348ad99db5");
@@ -22,18 +23,56 @@ body {
 #banner .title h2 {
   text-align: center;
   color: white;
-  border: 5px solid red;
+  border: 5px solid hsl(0, 100%, 57%);
+  font-family: sans-serif;
+  font-size: 34px;
   border-radius: 5px;
   padding: 5px;
   position: relative;
   top: 10px;
   margin: 0 40px;
-  background-color: gray;
+  background-color: hsla(0, 0%, 48%, 0.8);
 }
+   /* Introduction */
+
+.introduction {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 850px;
+}
+   /* Factors and Information */
+
+div.screen-size {
+  border: 7px solid hsl(206, 100%, 60.8%);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.processor {
+  border: 7px solid hsl(0, 100%, 60.8%);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.design {
+  border: 7px solid hsl(119, 86.7%, 28.7%);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div.screen-size,
+div.processor,
+div.design {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 800px;
+}
+   /* All elements with bullets */
 
 ul {
   margin: 20px 30px;
 }
+   /* Styling top, bottom, and middle elements */
 
 .introduction,
 .final-conclusion {
@@ -42,30 +81,12 @@ ul {
   font-weight: bold;
 }
 
-.introduction {
-  text-align: center;
-  margin: 10px auto;
-  max-width: 850px;
-}
-
 .factors h3,
 .conclusion,
 .final-thoughts {
   text-align: center;
 }
-
-.final-conclusion {
-  margin: 10px auto 050px ;
-  text-align: center;
-  max-width: 910px;
-}
-
-.conclusion {
-  border: 5px solid purple;
-  margin: 5px auto;
-  border-radius: 3px;
-  width: 700px;
-}
+   /* Footer */
 
 .footer {
   background-color: skyblue;
@@ -78,28 +99,15 @@ ul {
   margin: 10px auto;
 }
 
-div.screen-size {
-  border: 7px solid skyblue;
-  margin: 10px;
-  border-radius: 10px;
+.conclusion {
+  border: 5px solid hsl(296, 86.7%, 36.6%);
+  margin: 5px auto;
+  border-radius: 3px;
+  width: 700px;
 }
 
-div.processor {
-  border: 7px solid crimson;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-div.design {
-  border: 7px solid green;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-div.screen-size,
-div.processor,
-div.design {
+.final-conclusion {
+  margin: 10px auto 050px ;
   text-align: center;
-  margin: 10px auto;
-  max-width: 800px;
+  max-width: 910px;
 }
