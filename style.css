@@ -74,12 +74,7 @@ ul {
 }
    /* Styling top, bottom, and middle elements */
 
-.introduction,
-.final-conclusion {
-  text-align: justify;
-  font-weight: bold;
-  margin: 10px 20px;
-}
+
 
 .factors h3,
 .conclusion,
@@ -107,8 +102,7 @@ ul {
 }
 
 .final-conclusion {
-  margin: 10px auto 050px ;
+  margin: 10px auto 50px;
   text-align: center;
   max-width: 910px;
 }
-
