@@ -2,19 +2,13 @@
   padding: 0;
   margin: 0;
   min-width: 400px;
+  font-family: 'Noto Serif';
 }
 
 body {
   background-color: hsla(57, 70%, 95%, 0.9);
 }
 
-p,
-li,
-h1,
-h2,
-h3 {
-  font-family: 'Noto Serif';
-}
    /* Banner and Title */
 
 #banner {
@@ -67,6 +61,25 @@ div.design {
   border: 7px solid hsl(119, 86.7%, 28.7%);
   border-radius: 10px;
   margin: 10px;
+}
+    /* Image Styling */
+
+ .original-3ds {
+  background-image: url("images/Original_3DS.png");
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.original-3ds p {
+  font-weight: 450;
+  font-style: italic;
+  color: hsl(359 100% 43.7%);
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 div.screen-size,
