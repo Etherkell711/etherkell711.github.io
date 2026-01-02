@@ -62,25 +62,6 @@ div.design {
   border-radius: 10px;
   margin: 10px;
 }
-    /* Image Styling */
-
- .original-3ds {
-  background-image: url("images/Original_3DS.png");
-  background-size: cover;
-  height: 350px;
-  width: 350px;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.original-3ds p {
-  font-weight: 450;
-  font-style: italic;
-  color: hsl(359 100% 43.7%);
-  text-align: center;
-  position: relative;
-  bottom: 10px;
-}
 
 div.screen-size,
 div.processor,
@@ -89,6 +70,69 @@ div.design {
   margin: 10px auto;
   max-width: 800px;
 }
+
+    /* Image Styling */
+
+div.first-images {
+  max-width: 900px;
+}
+
+ .original-3ds {
+  background-image: url("Original_3ds.png");
+  background-size: cover;
+  height: 355px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.three-ds-xl {
+  background-image: url("3ds_xl.png");
+  background-size: cover;
+  height: 370px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+    /* Second Phase of Images */
+
+.new-3ds {
+  background-image: url("New_3ds.png");
+  background-size: cover;
+  display: inline-block;
+  height: 340px;
+}
+
+.new-3ds-xl {
+  background-image: url("New_3ds_xl.png");
+  background-size: cover;
+  display: inline-block;
+  height: 340px;
+}
+
+    /* Thrid Phase of Images */
+
+.two-ds {
+  background-image: url("2DS.png");
+  background-size: cover;
+  display: inline-block;
+  height: 350px;
+}
+
+.new-2ds-xl {
+  background-image: url("New_2ds_xl.png");
+  background-size: cover;
+  display: inline-block;
+  height: 330px;
+}
+
+.image p {
+  font-weight: 450;
+  font-style: italic;
+  color: hsl(359 100% 43.7%);
+  text-align: center;
+  position: relative;
+}
+
    /* All elements with bullets */
 
 ul {
