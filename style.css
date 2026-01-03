@@ -126,11 +126,35 @@ div.first-images {
 }
 
 .image p {
-  font-weight: 450;
+  font-weight: 500;
   font-style: italic;
-  color: hsl(359 100% 43.7%);
+  font-size: 30px;
+  font-family: "noto sans";
+  color: black;
   text-align: center;
   position: relative;
+  top: 83px;
+}
+
+span.three {
+color: hsl(0 100% 38.2%);
+}
+  /* Styling All quotes and 3DS Titles   color: hsl(359 100% 43.7%); */
+
+#first {
+  color: hsl(350 100% 40.6%);
+}
+
+#second {
+  color: hsl(198 100% 50%);
+}
+
+#third {
+  color: hsl(154 100% 31.8%);
+}
+
+#fourth {
+color: hsl(330 78.8% 52%);
 }
 
    /* All elements with bullets */
