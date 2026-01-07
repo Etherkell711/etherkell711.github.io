@@ -73,90 +73,13 @@ div.design {
 
     /* Image Styling */
 
-div.first-images {
-  max-width: 900px;
-}
-
- .original-3ds {
-  background-image: url("Original_3ds.png");
-  background-size: cover;
-  height: 355px;
-  margin: 0 auto;
-  display: inline-block;
-}
-
-.three-ds-xl {
-  background-image: url("3ds_xl.png");
-  background-size: cover;
-  height: 370px;
-  margin: 0 auto;
-  display: inline-block;
-}
-
-    /* Second Phase of Images */
-
-.new-3ds {
-  background-image: url("New_3ds.png");
-  background-size: cover;
-  display: inline-block;
-  height: 340px;
-}
-
-.new-3ds-xl {
-  background-image: url("New_3ds_xl.png");
-  background-size: cover;
-  display: inline-block;
-  height: 340px;
-}
-
-    /* Thrid Phase of Images */
-
-.two-ds {
-  background-image: url("2DS.png");
-  background-size: cover;
-  display: inline-block;
+img {
   height: 350px;
 }
 
-.new-2ds-xl {
-  background-image: url("New_2ds_xl.png");
-  background-size: cover;
-  display: inline-block;
-  height: 330px;
+img:hover {
+  border: blue;
 }
-
-.image p {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 30px;
-  font-family: "noto sans";
-  color: black;
-  text-align: center;
-  position: relative;
-  top: 83px;
-}
-
-span.three {
-color: hsl(0 100% 38.2%);
-}
-  /* Styling All quotes and 3DS Titles   color: hsl(359 100% 43.7%); */
-
-#first {
-  color: hsl(350 100% 40.6%);
-}
-
-#second {
-  color: hsl(198 100% 50%);
-}
-
-#third {
-  color: hsl(154 100% 31.8%);
-}
-
-#fourth {
-color: hsl(330 78.8% 52%);
-}
-
    /* All elements with bullets */
 
 ul {
