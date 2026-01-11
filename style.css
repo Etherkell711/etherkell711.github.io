@@ -22,10 +22,15 @@ body {
   border-radius: 10px;
 }
 
+@font-face {
+  font-family: "Atkinson Hyperlegible Mono";
+  src: url("AtkinsonHyperlegibleMono-SemiBold.ttf") format("truetype");
+}
+
 #banner .title h2 {
   text-align: center;
-  font-family: 'Atkinson Hyperlegible Mono';
   font-size: 30px;
+  font-family: "Atkinson Hyperlegible Mono";
   line-height: 35px;
   color: white;
   background-color: hsla(0, 0%, 48%, 0.8);
@@ -73,6 +78,11 @@ div.design {
 
     /* Image Styling */
 
+div.images {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   height: 350px;
 }
@@ -80,6 +90,7 @@ img {
 img:hover {
   border: blue;
 }
+
    /* All elements with bullets */
 
 ul {
