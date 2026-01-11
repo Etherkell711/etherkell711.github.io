@@ -81,6 +81,7 @@ div.design {
 div.images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 img {
